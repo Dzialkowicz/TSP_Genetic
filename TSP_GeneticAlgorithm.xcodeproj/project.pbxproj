@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA1B3CC1FD2CA67008ADD36 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B3CB1FD2CA67008ADD36 /* main.cpp */; };
+		1FA1B3D71FD2CB23008ADD36 /* TSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B3D51FD2CB23008ADD36 /* TSP.cpp */; };
+		1FA1B3DA1FD2CBF5008ADD36 /* myClock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1B3D81FD2CBF4008ADD36 /* myClock.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FA1B3C61FD2CA67008ADD36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FA1B3C81FD2CA67008ADD36 /* TSP_GeneticAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TSP_GeneticAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA1B3CB1FD2CA67008ADD36 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1FA1B3D51FD2CB23008ADD36 /* TSP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TSP.cpp; sourceTree = "<group>"; };
+		1FA1B3D61FD2CB23008ADD36 /* TSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSP.h; sourceTree = "<group>"; };
+		1FA1B3D81FD2CBF4008ADD36 /* myClock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myClock.cpp; sourceTree = "<group>"; };
+		1FA1B3D91FD2CBF4008ADD36 /* myClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myClock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA1B3C51FD2CA67008ADD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA1B3BF1FD2CA67008ADD36 = {
+			isa = PBXGroup;
+			children = (
+				1FA1B3CA1FD2CA67008ADD36 /* TSP_GeneticAlgorithm */,
+				1FA1B3C91FD2CA67008ADD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA1B3C91FD2CA67008ADD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA1B3C81FD2CA67008ADD36 /* TSP_GeneticAlgorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA1B3CA1FD2CA67008ADD36 /* TSP_GeneticAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				1FA1B3CB1FD2CA67008ADD36 /* main.cpp */,
+				1FA1B3D51FD2CB23008ADD36 /* TSP.cpp */,
+				1FA1B3D81FD2CBF4008ADD36 /* myClock.cpp */,
+				1FA1B3D91FD2CBF4008ADD36 /* myClock.h */,
+				1FA1B3D61FD2CB23008ADD36 /* TSP.h */,
+			);
+			path = TSP_GeneticAlgorithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA1B3C71FD2CA67008ADD36 /* TSP_GeneticAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA1B3CF1FD2CA67008ADD36 /* Build configuration list for PBXNativeTarget "TSP_GeneticAlgorithm" */;
+			buildPhases = (
+				1FA1B3C41FD2CA67008ADD36 /* Sources */,
+				1FA1B3C51FD2CA67008ADD36 /* Frameworks */,
+				1FA1B3C61FD2CA67008ADD36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSP_GeneticAlgorithm;
+			productName = TSP_GeneticAlgorithm;
+			productReference = 1FA1B3C81FD2CA67008ADD36 /* TSP_GeneticAlgorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA1B3C01FD2CA67008ADD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jakub Sanecki";
+				TargetAttributes = {
+					1FA1B3C71FD2CA67008ADD36 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FA1B3C31FD2CA67008ADD36 /* Build configuration list for PBXProject "TSP_GeneticAlgorithm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FA1B3BF1FD2CA67008ADD36;
+			productRefGroup = 1FA1B3C91FD2CA67008ADD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA1B3C71FD2CA67008ADD36 /* TSP_GeneticAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA1B3C41FD2CA67008ADD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA1B3D71FD2CB23008ADD36 /* TSP.cpp in Sources */,
+				1FA1B3CC1FD2CA67008ADD36 /* main.cpp in Sources */,
+				1FA1B3DA1FD2CBF5008ADD36 /* myClock.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FA1B3CD1FD2CA67008ADD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FA1B3CE1FD2CA67008ADD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FA1B3D01FD2CA67008ADD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4U3KXCL9P;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FA1B3D11FD2CA67008ADD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4U3KXCL9P;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA1B3C31FD2CA67008ADD36 /* Build configuration list for PBXProject "TSP_GeneticAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA1B3CD1FD2CA67008ADD36 /* Debug */,
+				1FA1B3CE1FD2CA67008ADD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA1B3CF1FD2CA67008ADD36 /* Build configuration list for PBXNativeTarget "TSP_GeneticAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA1B3D01FD2CA67008ADD36 /* Debug */,
+				1FA1B3D11FD2CA67008ADD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA1B3C01FD2CA67008ADD36 /* Project object */;
+}
